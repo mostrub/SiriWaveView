@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct SiriWaveView: View {
+public struct SiriWaveView: View {
     
     var siriWave: SiriWave!
     
@@ -16,7 +16,7 @@ struct SiriWaveView: View {
     var _supportLineColor: Color!
     var _power: Double!
     
-    init() {
+    public init() {
         
         self._power = 0.0
     
@@ -52,7 +52,7 @@ struct SiriWaveView: View {
         
     }
     
-    func power(power: Double) -> Self {
+    public func power(power: Double) -> Self {
         
         var this = self;
         
@@ -72,7 +72,7 @@ struct SiriWaveView: View {
         
     }
     
-    var body: some View {
+    public var body: some View {
         
         GeometryReader { geometry in
             
