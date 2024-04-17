@@ -38,7 +38,7 @@ public struct SiriWaveView: View {
         
     }
     
-    func colors(colors: [Color]) -> Self {
+    public func colors(colors: [Color]) -> Self {
         
         var this = self;
         
@@ -62,7 +62,7 @@ public struct SiriWaveView: View {
         
     }
     
-    func supportLineColor(color: Color) -> Self {
+    public func supportLineColor(color: Color) -> Self {
         
         var this = self;
         
